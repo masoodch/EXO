@@ -6,7 +6,7 @@ if (Get-Module -Name RegistryValue)
 else 
 {
     Write-Host "Importing Module"
-    Import-Module "C:\Users\Masood Chaudhry\EXO\RegistryValue.ps1"    
+    Import-Module .\RegistryValue.ps1    
 }
 
 Write-Host "Validating Console Prompting"
